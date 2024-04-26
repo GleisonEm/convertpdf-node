@@ -12,7 +12,6 @@
     "express": "^4.19.2",
     "html-pdf": "^3.0.1",
     "perf_hooks": "^0.0.1",
-    "puppeteer": "^22.7.0",
     "uuid": "^9.0.1"
   }
 }
