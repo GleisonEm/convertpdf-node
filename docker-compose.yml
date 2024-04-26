@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  node:
+    container_name: pdf-test
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '0.25'
+          memory: '0.5GB'
+    ports:
+      - "3004:3004"
